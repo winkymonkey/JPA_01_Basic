@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "T_EMPL")
-@IdClass(EmployeeID.class)
+@IdClass(BranchID.class)
 public class Employee {
 	
 	@Id
@@ -20,4 +20,5 @@ public class Employee {
 	
 	@Column(name = "SALARY")
 	private int salary;
+	
 }

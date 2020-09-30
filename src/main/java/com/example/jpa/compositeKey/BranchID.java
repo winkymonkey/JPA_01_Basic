@@ -2,7 +2,8 @@ package com.example.jpa.compositeKey;
 
 import java.io.Serializable;
 
-public class EmployeeID implements Serializable {
+
+public class BranchID implements Serializable {
 	
 	private static final long serialVersionUID = -442650859280537797L;
 	
@@ -21,6 +22,7 @@ public class EmployeeID implements Serializable {
 	public void setId(int id) {
 		this.id = id;
 	}
+	
 	
 	
 	public boolean equals(Object obj) {
