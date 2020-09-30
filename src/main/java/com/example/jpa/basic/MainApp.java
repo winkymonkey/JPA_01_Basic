@@ -1,4 +1,4 @@
-package com.example.basic;
+package com.example.jpa.basic;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

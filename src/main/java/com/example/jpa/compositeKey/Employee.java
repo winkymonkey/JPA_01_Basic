@@ -1,4 +1,4 @@
-package com.example.compositeKey;
+package com.example.jpa.compositeKey;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
